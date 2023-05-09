@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    width: 100%;
+    height: 15vh;
+    
+}
+#nav #links{
+    display: flex;
+    gap: 20px;
+}
+#links a{
+
+    text-decoration: none;
+    font-weight: 400;
+    font-family:"voyage";
+}
+#nav h3 span{
+    font-weight: 600;
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     width: 100%;
+     height: 40vh;
+     
+}
+#heading h1{
+    font-size: 40px;
+    font-family:cursive ;
+}
+#heading p{
+    margin: 20px 0px;
+    text-align: center;
+    width: 50%;
+}
+#heading button{
+    padding: 12px 32px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 100px;
+}
+#pic{
+    width: 100%;
+}
+#pic img{
+    width: 100%;
+}
+
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw 5vw;
+    width: 100%;
+    margin-top: 50px;
+}
+#details #dleft{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 50px;
+    width:48%;
+    border-right: 2px solid black;
+    
+
+}
+#details #dleft #smline{
+    width: 5%;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0px;
+}
+#details #dleft p{
+font-size: 15px;
+text-align: right;
+margin: 10px 0px;
+width: 40%;
+}
+#details #dright{
+    width: 48%;
+
+}
+#dright .feat{
+    display: flex;
+    gap: 20px;
+}
+.feat p{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 50%;
+}
+
+
+
